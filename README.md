@@ -2,17 +2,17 @@
 
 ## 📌 Project Overview
 
-This project implements an AI-powered Crop and Weed Detection system using the YOLOv8 object detection model. The model is trained to automatically identify crops and weeds from agricultural field images, helping farmers improve weed management and precision farming.
+This project implements an AI-powered Crop and Weed Detection system using the **YOLOv8 Nano** object detection model. The model is trained on a custom agricultural dataset to detect crops and weeds from field images, supporting precision farming and automated weed management.
 
 ---
 
 ## 🚀 Features
 
-- Detects crops and weeds from field images
-- Uses YOLOv8 Nano for object detection
-- Bounding box visualization
-- Model training and evaluation
-- Image prediction using trained model
+- 🌾 Detects crops and weeds from agricultural images
+- 🤖 YOLOv8 Nano object detection model
+- 📦 Bounding box predictions
+- 📊 Model training and evaluation
+- 🖼️ Image prediction using trained model
 
 ---
 
@@ -29,43 +29,39 @@ This project implements an AI-powered Crop and Weed Detection system using the Y
 
 ## 📂 Dataset Summary
 
-- Total Images: **1300**
-- Total Label Files: **1300**
-- Crop Objects: **1212**
-- Weed Objects: **860**
+- **Total Images:** 1300
+- **Total Label Files:** 1300
+- **Crop Objects:** 1212
+- **Weed Objects:** 860
 
 ---
 
-## 📊 Model Configuration
+## ⚙️ Model Configuration
 
-- Model: YOLOv8 Nano
-- Epochs: 20
-- Image Size: 512 × 512
-- Batch Size: 16
-
----
-
-## 📈 Results
-
-The model successfully detects crops and weeds using bounding boxes. It was trained using a custom agricultural dataset and evaluated on validation images.
+| Parameter | Value |
+|-----------|-------|
+| Model | YOLOv8 Nano |
+| Epochs | 20 |
+| Image Size | 512 × 512 |
+| Batch Size | 16 |
 
 ---
 
 ## 📷 Sample Prediction
 
-<img src="images/prediction_result.jpg" width="600">
+![Sample Prediction](val_batch0_pred.jpg)
 
 ---
 
-## 📉 Training Results
+## 📈 Training Results
 
-<img src="images/results.png" width="700">
+![Training Results](results.png)
 
 ---
 
 ## 📊 Confusion Matrix
 
-<img src="images/confusion_matrix.png" width="600">
+![Confusion Matrix](confusion_matrix.png)
 
 ---
 
@@ -91,15 +87,14 @@ model.predict(
 ## 📁 Project Structure
 
 ```
-Crop_Weed_Detection
+Crop_Weed_Detection/
 │
 ├── Crop_Weed_Detection.ipynb
 ├── README.md
 ├── requirements.txt
-└── images
-    ├── prediction_result.jpg
-    ├── results.png
-    └── confusion_matrix.png
+├── results.png
+├── confusion_matrix.png
+└── val_batch0_pred.jpg
 ```
 
 ---
@@ -108,10 +103,10 @@ Crop_Weed_Detection
 
 **Jayachandiran K**
 
-B.Tech Artificial Intelligence & Data Science
+B.Tech – Artificial Intelligence & Data Science
 
 Nehru Institute of Engineering and Technology
 
 ---
 
-⭐ If you found this project useful, consider giving it a star.
+⭐ If you found this project useful, consider giving it a ⭐ on GitHub!
